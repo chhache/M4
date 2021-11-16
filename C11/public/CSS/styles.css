@@ -1,0 +1,247 @@
+
+/* selector universal, aplica a todos los elementos HTML */
+/* * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}  */
+
+/* pseuso selector para almacenar variables -> : nombre y lo declaramos global para todas las paginas*/
+/* :root{
+    --background-color-yellow: #EAC926;
+    --background-accept-button: #39b54a;
+}
+
+/* genero una class y luego desde el html llamo a la class */
+/* .button-accept{
+    background-color: var(--background-accept-button);
+    padding: 10px 20px;
+}*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    /* text-align: center; */
+    padding: 10px;
+}
+p{    
+    font-size: 12px;
+    border: 1px solid #000;
+    text-align: center;
+}    
+div.top-header{    
+    padding: 5%;
+}
+header{
+    width: 100vw;
+    background-color: #EAC926;    
+}
+header div.logo{
+    width: 50vw;
+    margin: auto;
+    padding: 10px;
+}
+/* header div.logo{
+    
+} */
+header nav{
+    font-size: 12px;
+    padding: 15px;
+}
+header ul li{
+    list-style-type: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+header .form{
+    text-align: center;    
+}
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+          
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 2vw;
+}
+header div.top-header p{
+    width: 100vw;
+    text-align: center;
+    margin-top: 10px;
+}
+div.burger-menu{
+    /* text-align: center; */
+}
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40%h;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40%;
+}
+article div.main-article{
+    /* 100% del ancho disponible  -> vieport weigth */
+    width: 100vw;
+    padding-left: 10%;
+    border: 2px solid #000; 
+}
+.price{
+    font-size: 18px;
+    font-weight: bold;    
+}
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+    /* padding: 15px; */
+}
+h3,
+.description{
+    color: #666; 
+    padding-top: 15px;   
+}
+section.banner img{
+    width: 100vw;
+}
+main{
+    width: 100vw;
+    margin: auto;
+    padding: 10px;  
+}
+.products{
+    width: 100vw;
+    background-color: lightgrey;
+    border: dotted 3px black;
+}
+main section article{
+    border: solid 1px #ebebeb;
+    /* border: 1px solid #39b54a;  */
+    margin-bottom: 15px;
+    background-color: #FFF;
+    /* position: relative; ver si no es en otro contenedor */   
+}
+main section article img{
+    margin: auto;
+    width: 100vw;    
+}
+main section article i,     
+.discount{
+    
+    border: 1px solid #39b54a;
+    color: green;
+    
+}
+main section article i{
+    display: flex;
+    padding: 5px;
+    border: solid 2px green;
+    border-radius: 100%;
+
+    /* font-size: 16px;
+    padding: 5px;
+    width: 30px; 
+    height: 30px; */
+
+    /* background-color: #FFF; */
+    /* border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px; */
+
+}
+main section article p{
+    display: flex;
+    
+    border: solid 2px blue;
+    width: 30%;
+}
+
+
+/* declarar variable de color */
+@media(max-width: 500px){
+    .description{
+        display:none;
+        visibility: hidden;
+    }
+}
+
+/* Clase 04
+@media (min-width: 361px){
+    main section article .description{
+        display: block;
+    }
+
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article{
+        width: 45%;
+    }
+
+    .price,
+    .discount{
+        width: 50%;
+    }
+}
+
+@media (min-width: 769px){
+    main section div.products article{
+        width: 22%;
+    }
+}
+*/
+
+
+
+
+
+/* @media(min-width: 769px){
+    .??{        
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+} */
+
+
+
+/* 
+.precio{
+    font-size: 1.125rem;
+}
+
+.descuentos{
+    font-size: 1rem;   
+}
+
+.descripcion{
+    font-size: 16px;
+}
+
+
+.centrado{text-align: center;} */
